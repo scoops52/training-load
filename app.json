@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "training-load",
+    "slug": "training-load",
+    "ios": {
+      "bundleIdentifier": "com.scoops52.training-load",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/firestore"
+    ]
+  }
+}

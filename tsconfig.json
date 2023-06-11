@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "jsx": "react-native",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["types/*"]
+    }
+  },
+  "extends": "expo/tsconfig.base"
+}
